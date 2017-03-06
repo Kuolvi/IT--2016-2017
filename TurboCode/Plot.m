@@ -1,3 +1,15 @@
+Development and research of models of data transmission systems with adaptation to communication channel status and implementation of ‚Äúdeferred precision‚Äù principle.
+Copyright (C) 2016 Olga Kuprianova
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
 global argNSeries;
 global PSeries;
 global PchSeries;
@@ -37,13 +49,13 @@ grid(ax1,'on');
 
 plot(ax2, tser, plArrP, tser, plArrPch);
 xlabel(ax2, ' t ' )
-ylabel(ax2, '–Ó¯Ò /PÓ¯Í ' )
+ylabel(ax2, '√ê√Æ√∏√± /P√Æ√∏√™ ' )
 title(ax2, ' ' )
 grid(ax2,'on')
 
 plot(ax3, tser, dif, tser, plArrPch);
 xlabel(ax3, ' t ' )
-ylabel(ax3, ' \lambda  /PÓ¯Í' )
+ylabel(ax3, ' \lambda  /P√Æ√∏√™' )
 title(ax3, ' ' )
 grid(ax3,'on');
 
